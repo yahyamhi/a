@@ -1,0 +1,41 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset='UTF-8'>
+			<title> Program to find left most vowel and digits in reverse order</title>
+			<script type='text/javascript'>
+				 function findVowel(len){
+					var str=inp.toLowerCase()
+					var pos=0,ch=""
+					for (let i=0;i<str.length;i++){
+						ch=str.charAt(i);
+							if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+							pos=i+1;
+							break;
+							}
+					}
+					if(pos==0) 
+					alert("Vowel not Found")
+					else 
+					alert("The leftmost Vowel found at location :"+pos)
+				 }
+				 function findReverse(inp){
+					var num=parseInt(inp)
+					var temp=num
+					var rem=0,rev=0
+					while(num>0){
+						rem=num%10
+						rev=rev*10+rem
+						num=parseInt(num/10)
+					}
+					alert("Number:"+temp+"\nreverse order:"+rev)
+				 }
+					document.write("<h1 align='Center'>Program to find the leftmost vowel or digits in reverse order</h1>")
+					var inp=prompt("Enter String or Digits")
+					if(isNaN(inp))
+						findVowel(inp)
+					else
+						findReverse(inp)
+			</script>
+		</head>
+	</html>

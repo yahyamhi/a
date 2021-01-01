@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="Student.css"?>
+<vtu>
+	
+	<student>
+		<h1> Student 1</h1>
+		<usn> 4MW17CS095 </usn>
+		<name> Yahya </name>
+		<college> SMVITM </college>
+		<branch> CSE </branch>
+		<email> yahya@sode-edu.in </email>
+		<year> 2017 </year>
+	</student>
+	<h1> Student 2</h1>
+	<student>
+		<usn> 4MI19ME092 </usn>
+		<name> Ullas </name>
+		<college> MITE </college>
+		<branch> MECH </branch>
+		<email> puneeth@mite.in </email>
+		<year> 2019 </year>
+	</student>
+	<h1> Student 3</h1>
+	<student>
+		<usn> 4NM18EL086 </usn>
+		<name> Srivatsa </name>
+		<college> NMAMIT </college>
+		<branch> ELN </branch>
+		<email> srivatsa@nmamit.in </email>
+		<year> 2018</year>
+	</student>
+</vtu>
